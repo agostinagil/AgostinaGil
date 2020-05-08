@@ -1,0 +1,100 @@
+@font-face{
+    font-family: fuenteLAB;
+    src: url(lab.otf);
+}
+body{
+    background: url(fotocalle.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.navegador{
+    background-color: rgb(204, 241, 236)!important;
+
+    padding-bottom: 0.1000rem !important;
+    padding-top: 0.1000rem !important;
+
+
+}
+.navegador:hover{
+    background-color: rgba(184, 240, 232, 0.89)!important;
+    
+}
+.brand{
+    font-family: fuenteLAB !important;
+    font-size: 1.900rem;
+    padding-left: 3rem;
+    letter-spacing: 0.100rem !important;
+}
+.barra{
+
+    display: flex;
+    justify-content: flex-end;
+}
+.mensaje{
+    justify-content: center;
+}
+.mensajetexto{
+    background-color: rgba(144, 182, 177, 0.918);
+    /*background: rgba(235, 232, 232, 0.904);*/
+    margin-top: 3rem;
+    padding: 1rem 0 0.75rem;
+    text-align: center;
+    border-bottom: 2px solid rgb(74, 143, 143);
+    border-radius: 4px;
+}
+h3{
+    color: rgb(10, 20, 20);
+    font-weight: 300;
+}
+.box{
+    justify-content: center;
+    margin-top: 0;
+}
+.boxcontacto{
+    background-color: rgba(156, 212, 210, 0.616);
+    margin-top: 5rem ;
+    border: 2px solid white;
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: 3rem;
+}
+/*.form-control:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25)
+}*/
+h4{
+    font-family: fuenteLAB;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2.20rem;
+}
+.boton{
+    display: flex !important;
+    justify-content: center !important;
+}
+.btnn{
+    background-color: #ebf3f3;
+    border: #377070;
+    font-size: 1.20rem;
+    color: rgb(74, 143, 143);
+}
+.btnn:hover{
+    background-color: #2a6464;
+}
+.btn2{
+    background-color: #205555;
+    border: #377070;
+    font-size: 0.80rem;
+    color: rgb(235, 241, 241);
+    padding-left: 0.50rem;
+}
+.btn2:hover{
+    background-color: whitesmoke;
+    color: rgb(43, 94, 94);
+}
